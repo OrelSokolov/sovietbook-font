@@ -32,3 +32,13 @@ H1,H2,H3 {font-weight:normal}
 	padding-bottom: 20px;
 	min-height: 800px;
 }
+
+@media screen and (max-width: 1210px) {
+	.wrapper{
+		grid-template-columns: 600px;
+	}
+
+	.body {
+		width: 600px;
+	}
+}
