@@ -16,6 +16,9 @@ H1,H2,H3 {font-weight:normal}
 .bordn {border-width:1; border-style:solid; border-top-style:none}
 .borup {border-width:1; border-style:solid; border-bottom-style:none}
 
+img {
+	max-width: 100%;
+}
 .body {
 	margin: 0 auto;
 	width: 1202px;
