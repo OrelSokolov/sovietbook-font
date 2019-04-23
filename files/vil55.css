@@ -45,3 +45,28 @@ img {
 		width: 600px;
 	}
 }
+
+@media print {
+	.body {
+		width: 100%;
+		margin: 0;
+	}
+    .page {
+		background: white;
+		page-break-after: always;
+        box-shadow: none;
+        /*border: solid thin black;*/
+		margin: 0;
+	}
+
+	.wrapper {
+		display: block;
+		margin: 0;
+	}
+
+    .page {
+		font-size: 14px !important;
+		min-height: 100px;
+		width: 100%;
+	}
+}
