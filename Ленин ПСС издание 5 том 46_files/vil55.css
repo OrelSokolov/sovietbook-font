@@ -1,0 +1,34 @@
+BODY{color:#000;background:#FFFFFF}
+P,H1,H2,H3 {margin-left:10%;margin-right:10%}
+TD P {margin-left:1%;margin-right:1%}
+.wde {margin-left:0;margin-right:0}
+TABLE{margin-left:0;margin-right:0}
+BODY,P,A,TD,OL,UL,H3,H4,FONT{font-family: SovietBook;}
+H1,H2,H3 {font-family: "SovietBook";}
+SMALL P {margin-top:0; padding-top:0; margin-bottom:0; padding-bottom:0}
+HR {text-align:center}
+SMALL HR {text-align:LEFT}
+H1,H2,H3 {font-weight:normal}
+.rzr {letter-spacing:0.2em}
+.hug {font-size:300%}
+.sma {font-size:80%}
+.bor {border-width:1; border-style:solid}
+.bordn {border-width:1; border-style:solid; border-top-style:none}
+.borup {border-width:1; border-style:solid; border-bottom-style:none}
+
+.body {
+	margin: 0 auto;
+	width: 1202px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+.page {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background: #fff8e6;
+	margin: 10px 1px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	min-height: 800px;
+}
